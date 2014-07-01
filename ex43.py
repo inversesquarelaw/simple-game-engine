@@ -14,14 +14,14 @@ class Engine(object):
 
     def play(self):
         current_scene = self.scene_map.opening_scene()
-        print "Play's first scene", current_scene
+        #print "Play's first scene", current_scene
 
         while True:
             print "\n--------"
             next_scene_name = current_scene.enter()
-            print "next scene", next_scene_name
+            #print "next scene", next_scene_name
             current_scene = self.scene_map.next_scene(next_scene_name)  #increment to next screen
-            print "map returns new scene", current_scene
+            #print "map returns new scene", current_scene
 
 class Death(Scene):
     quips = [
