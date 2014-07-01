@@ -1,4 +1,7 @@
 simple-game-engine
 ==================
 
-simple text based adventure game engine written in python
+Simple text based adventure game engine written in python.
+
+This is an exercise in Object Oriented Design.
+
