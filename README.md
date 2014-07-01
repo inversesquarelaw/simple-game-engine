@@ -1,4 +1,4 @@
 simple-game-engine
 ==================
 
-simple game engine written in python
+simple text based adventure game engine written in python
